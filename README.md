@@ -1,14 +1,13 @@
 # ai_memo_app
 
-無理だったらいいけど
 ```
 main
   ▲
   │　@kaitoakamatsuがマージ
   │
-feature
+dev
   ▲
-  │（各メンバーが PR）
+  │　各メンバーが PR
   │
 ├── feature/a
 ├── feature/b
