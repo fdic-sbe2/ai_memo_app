@@ -22,6 +22,7 @@ dev
   - [【初心者でもわかる！】Gitの使い方講座](https://www.youtube.com/watch?v=cyOTQzI2AFU)
   - [【初心者プログラマ必見】しっかりマスターできる「GitHubの使い方講座」](https://www.youtube.com/watch?v=ZEc0PFPm7Pk)
 ### 操作方法
+- Git/VSCodeをインストール済みとして解説します
 0. Windows Terminalを開く
 1. リポジトリをパソコンにダウンロードする  
 ```git clone https://github.com/fdic-sbe2/ai_memo_app.git```
