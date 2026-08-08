@@ -61,11 +61,12 @@ xx=変更点を簡潔に説明する
     6. 右側`Reviewers`に[@kaitoakamatsu](https://github.com/kaitoakamatsu)、[@kmakoo251266-maker](https://github.com/kmakoo251266-maker)を入れる
     7. 緑色のボタン`Create pull request`を押す
 12. Pull Requestがレビューされ、承認・マージされたとき([@kaitoakamatsu](https://github.com/kaitoakamatsu)がLINEか何か送ります...)
-13. `dev`ブランチに切替、現状を更新する
+13. `dev`ブランチに切替、現状を更新、作業していたローカルブランチを削除
     ```
     git switch dev
     git fetch -p
     git pull
+    git branch -d feature/〇〇
     ```
 14. 別の機能を作る場合...  
 `5.`から始める
