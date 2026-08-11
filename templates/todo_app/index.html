@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AppName -todo</title>
+    <style>
+        #a {
+            color: rgb(0, 21, 80);
+        }
+
+        #current a {
+            color: rgb(255, 103, 15);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>AppName -todo</h1>
+    <header>
+        <ul>
+            <li><a href="{% url 'calendar_app:index' %}">Calendar</a></li>
+            <li id="current"><a href="{% url 'todo_app:index' %}">Todo</a></li>
+        </ul>
+    </header>
+</body>
+
+</html>
