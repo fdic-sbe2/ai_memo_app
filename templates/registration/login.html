@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AppName -Login</title>
+    <style>
+        #a {
+            color: rgb(0, 21, 80);
+        }
+
+        #current a {
+            color: rgb(255, 103, 15);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>AppName</h1>
+    <h2>ログイン</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">ログイン</button>
+    </form>
+</body>
+
+</html>
