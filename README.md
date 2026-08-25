@@ -1,6 +1,6 @@
 # ai_memo_app
 
-## このリポジトリのルール
+## このリポジトリのブランチ運用
 ```
 main
   ▲
@@ -14,6 +14,9 @@ dev
 ├── feature/b
 └── feature/c
 ```
+## 仕様書
+確定した仕様等はここに記載します  
+[fdic-sbe2/ai_memo_app_docs](https://github.com/fdic-sbe2/ai_memo_app_docs)
 
 ## コードを編集する方法
 ### 以下の内容を「理解できないな」と感じた時
